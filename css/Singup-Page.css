@@ -54,20 +54,12 @@ input:hover {
     font-size: 15px;
     background-color: aqua;
     box-shadow: 13px 9px 10px rgb(250, 118, 118);
-
 }
 
 #singup:hover {
     box-shadow: 10px 5px 10px rgb(28, 185, 224);
     transition: 0.9s;
-}
-
-
-#singup a {
-    text-decoration: none;
-    font-family: 'Rubik Wet Paint', cursive;
-    font-family: 'Ultra', serif;
-    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 ::placeholder {
@@ -83,12 +75,13 @@ input:hover {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.singup {
+.login {
     font-family: 'Courier New', Courier, monospace;
     font-size: 10px;
     color: aliceblue;
     margin-top: 50px;
-
+    cursor: pointer;
+   
 }
 
 .span-1 {
